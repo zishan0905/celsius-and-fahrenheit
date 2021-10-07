@@ -27,6 +27,55 @@ input{
     display: flex;
     align-items: center;
 }
-.second__first1,.second__first2{
-    background-color: white;
+.second__first1{
+    background-color: rgb(254, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 99px;
+position: absolute;
+margin-left: 99px;
+}
+.second__first2{
+    background-color: rgb(250, 250, 248);
+    margin-right: 30px;
+    position: absolute;
+    margin-left: 102px;
+    width: 18px;
+    height: 18px;
+    border-radius: 99px;
+}
+.second__second1{
+    background-color: rgb(244, 250, 250);
+    width: 25px;
+    height: 25px;
+    border-radius: 99px;
+position: absolute;
+margin-left: 99px;
+}
+.second__second2{
+    background-color: rgb(252, 252, 249);
+    margin-right: 30px;
+    position: absolute;
+    margin-left: 102px;
+    width: 18px;
+    height: 18px;
+    border-radius: 99px;
+}
+.lastbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button{
+    width: 100px;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+h4{
+    background-color: yellow;
+    width: 430px;
+    height: 300px;
 }
