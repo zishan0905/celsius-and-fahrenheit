@@ -1,0 +1,32 @@
+body{
+    background-color: red;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: yellow;
+   
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second__first{
+    display: flex;
+    align-items: center;
+
+}
+.second__second{
+    display: flex;
+    align-items: center;
+}
+.second__first1,.second__first2{
+    background-color: white;
+}
