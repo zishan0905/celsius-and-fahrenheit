@@ -25,8 +25,6 @@ function color1(e){
         if(second.style.backgroundColor==="blue"){
             first.style.backgroundColor=""
         }
-        (second.style.backgroundColor==="white")
-            second.backgroundColor="blue"
         
     }}
     }
