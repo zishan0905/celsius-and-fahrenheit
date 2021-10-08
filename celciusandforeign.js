@@ -33,11 +33,16 @@ function color1(e){
     }
 
     function cli(){
+        result.innerText=""
         if(first.style.backgroundColor==="blue"){
             result.append("celsius")
+            
         }else if(second.style.backgroundColor==="blue"){
+           result.innerText=""
             result.append("fahrenhiet")
+            
         }
+        
     }
 
 
