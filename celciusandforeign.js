@@ -4,6 +4,8 @@ let first1 = document.querySelector(".second__first2")
 let second= document.querySelector(".second__second1")
 let second1 = document.querySelector(".second__second2")
 let butt = document.querySelector("#but")
+let para = document.querySelector(".res")
+let result =document.querySelector("h4")
 
 
 
@@ -32,16 +34,12 @@ function color1(e){
 
     function cli(){
         if(first.style.backgroundColor==="blue"){
-            window.alert("celsius")
+            result.append("celsius")
         }else if(second.style.backgroundColor==="blue"){
-            window.alert("fahrenhiet")
+            result.append("fahrenhiet")
         }
     }
-//    function cli(e){
-//        e.preventDefault()
-//        window.alert("he")
-//    }
-  
+
 
 first1.onclick=color
 second1.onclick=color1;
