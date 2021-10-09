@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: rgb(73, 112, 170);
 }
 .header{
     display: flex;
@@ -11,7 +11,7 @@ input{
     height: 30px;
     text-align: center;
     font-size: 30px;
-    background-color: yellow;
+    background-color: rgb(138, 14, 101);
    
 }
 .second{
@@ -75,8 +75,10 @@ button{
     margin: 50px 0px 0px 0px;
 }
 h4{
-    background-color: yellow;
-    width: 430px;
-    height: 300px;
+    background-color: rgb(49, 48, 47);
+    width: 490px;
+    height: 320px;
     font-size: 18px;
+    color: white;
+    margin-left: 6px;
 }

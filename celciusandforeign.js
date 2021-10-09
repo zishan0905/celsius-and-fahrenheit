@@ -53,7 +53,7 @@ function color1(e){
         }else if(second.style.backgroundColor==="blue"){
            result.innerText=""
            let inpt=inp.value
-           let l = (inpt-32)*5/9
+           let l =(inpt-32)*5/9
             result.append(inpt+" " +"fahrenhiet"+" "+"or"+" "+l+" "+"celsius"+"."+" "+"The Fahrenheit scale measures temperatures in degrees Fahrenheit (°F). In this system, water freezes at 32°F and boils at 212°F. This scale used to be common around the world, but now it is mostly used in the US.Fahrenheit had based his invention on Danish scientist Ole Roemer's alcohol-based thermometer. Roemer labeled his temperature scale with zero marked at the temperature where brine (salt water) froze and 60 as the point at which water boiled, wrote Ulrich Grigull, the late director of the Institute for Thermodynamics at the Technical University of Munich in Germany,")
             
         }
