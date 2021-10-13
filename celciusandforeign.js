@@ -65,5 +65,5 @@ function color1(e){
 first1.onclick=color
 second1.onclick=color1;
 butt.onclick=cli
-
+console.log("hello")
 
